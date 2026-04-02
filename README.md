@@ -42,7 +42,7 @@ Small **FastAPI** app in Docker, served over **HTTPS** with a **self-signed** ce
 
 ## Tools / assistance
 
-Standard **Docker**, **OpenSSL**, and framework docs only — no special third-party codegen tools.
+Standard **Docker**, **OpenSSL**, and framework docs only 
 
 ## Deploying to a cloud provider (e.g. AWS)
 
