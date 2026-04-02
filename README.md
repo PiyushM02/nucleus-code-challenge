@@ -66,21 +66,3 @@ scripts/       # gen-certs.sh
 Dockerfile
 docker-compose.yml
 ```
-
-## Publish to GitHub
-
-1. On [github.com/new](https://github.com/new), create a **public** repository (leave it empty — no README).
-2. From this folder:
-
-   ```bash
-   cd cloud-challenge
-   git remote add origin https://github.com/<your-username>/<your-repo>.git
-   git branch -M main
-   git push -u origin main
-   ```
-
-**Optional — GitHub CLI:** install with `brew install gh`, run `gh auth login`, then:
-
-```bash
-gh repo create <your-repo-name> --public --source=. --remote=origin --push
-```
